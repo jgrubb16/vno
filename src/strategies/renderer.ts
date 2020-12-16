@@ -1,7 +1,12 @@
 /* eslint-disable no-restricted-syntax */
 import { walk } from "https://deno.land/std@0.80.0/fs/mod.ts";
-import { component, html, options, ssr } from "./types.ts";
-import Parser from "./parser.ts";
+import Parser from "https://raw.githubusercontent.com/jgrubb16/vno/cliserve/src/strategies/parser.ts";
+import {
+  component,
+  html,
+  options,
+  ssr,
+} from "https://raw.githubusercontent.com/jgrubb16/vno/cliserve/src/strategies/parser";
 
 function Renderer(this: ssr) {
   this.root = null;
