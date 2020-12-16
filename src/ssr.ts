@@ -169,17 +169,3 @@ app.addEventListener("listen", () => {
 await app.listen({ port: 8000 });
 
 export { app };
-
-//extra crap we may need with regex and HTML
-// const divRegex = /<\W*div id="app">/;
-// const divRegex2 = /<\/div>/;
-// const scriptRegex = /<\W*script type="module">/;
-// const docType = text.split(divRegex)[0].split(/\n|\s{2,}/).join("");
-// const htmlInject = text.split(divRegex)[1].split(/\n|\s{2,}/).join("");
-// const htmlInject2 = htmlInject.split(divRegex2)[1];
-// const htmlInject3 = htmlInject.split(scriptRegex)[0];
-// const htmlInject4 = htmlInject.split(scriptRegex)[1];
-
-// const finalHtml =
-//   `${docType}\n<div id="app">\n${template}\n</div>\n<script>${script}</script>\n${htmlInject3}\n<script type="model src=BUNDLE\n${htmlInject4}`;
-// console.log("final", finalHtml);
