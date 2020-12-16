@@ -6,7 +6,7 @@ import {
   html,
   options,
   ssr,
-} from "https://raw.githubusercontent.com/jgrubb16/vno/cliserve/src/strategies/parser";
+} from "https://raw.githubusercontent.com/jgrubb16/vno/cliserve/src/strategies/types.ts";
 
 function Renderer(this: ssr) {
   this.root = null;
