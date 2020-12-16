@@ -1,8 +1,11 @@
 import { join } from "https://deno.land/std@0.74.0/path/mod.ts";
 import { ensureDir, exists } from "https://deno.land/std@0.80.0/fs/mod.ts";
 
-import { component, vno } from "./types.ts";
-import print from "./console.ts";
+import {
+  component,
+  vno,
+} from "https://raw.githubusercontent.com/jgrubb16/vno/cliserve/src/strategies/types.ts";
+import print from "https://raw.githubusercontent.com/jgrubb16/vno/cliserve/src/strategies/console.ts";
 
 /**
  * parser object interface vno contains the methods used during the parsing
